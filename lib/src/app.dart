@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_bloc/src/screens/login_screen.dart';
 
 class App extends StatelessWidget {
   @override
@@ -7,7 +8,7 @@ class App extends StatelessWidget {
       title: 'Log Me In',
       home: Scaffold(
         body: Container(
-          child: Text('Log Me In!!'),
+          child: LoginScreen(),
         ),
       ),
     );
